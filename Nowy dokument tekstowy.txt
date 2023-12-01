@@ -1,0 +1,39 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    string tab3d[2][3][6]=
+    
+    {
+    {
+        {"1A","1B","1C","1D","1E","1F"},
+        {"2A","2B","2C","2D","2E","2F"},
+        {"3A","3B","3C","3D","3E","3F"}
+    },
+    {
+        {"1X","2X","3X","4X","5X","6X"},
+        {"1Y","2Y","3Y","4Y","5Y","6Y"},
+        {"1Z","2Z","3Z","4Z","5Z","6Z"}
+    }
+    };
+    for (int i=0;i<2;i++){
+        for (int k=0;k<3;k++){
+            for (int j=0;j<6;j++){
+                cout << tab3d[i][k][j] << ",";
+            }
+            cout << endl;
+        }
+        cout << endl;
+    }
+}
