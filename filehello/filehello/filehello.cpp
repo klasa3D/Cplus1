@@ -4,6 +4,7 @@
 using namespace std;
 
 int main() {
+	//init zmienne
 	int x = 0;
 	cin >> x;
 	if (x == 1) {
